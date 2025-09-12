@@ -309,7 +309,7 @@ func (s *listenService) groupByStore() map[string]bool {
 		var link string
 
 		// 检查是否为中国大陆、香港、日本、新加坡、美国、英国、澳大利亚
-		if s.Area.ShortCode == "cn" || s.Area.ShortCode == "hk" || s.Area.ShortCode == "jp" || s.Area.ShortCode == "sg" || s.Area.ShortCode == "us" || s.Area.ShortCode == "uk" || s.Area.ShortCode == "au" {
+		if s.Area.ShortCode == "cn" || s.Area.ShortCode == "hk" || s.Area.ShortCode == "jp" || s.Area.ShortCode == "kr" || s.Area.ShortCode == "sg" || s.Area.ShortCode == "us" || s.Area.ShortCode == "uk" || s.Area.ShortCode == "au" {
 			// 使用特定店铺查询API格式
 			var params []string
 
@@ -355,6 +355,8 @@ func (s *listenService) groupByStore() map[string]bool {
 				link = fmt.Sprintf("https://www.apple.com/hk/shop/fulfillment-messages?%s", queryStr)
 			case "jp":
 				link = fmt.Sprintf("https://www.apple.com/jp/shop/fulfillment-messages?%s", queryStr)
+			case "kr":
+				link = fmt.Sprintf("https://www.apple.com/kr/shop/fulfillment-messages?%s", queryStr)
 			case "sg":
 				link = fmt.Sprintf("https://www.apple.com/sg/shop/fulfillment-messages?%s", queryStr)
 			case "us":

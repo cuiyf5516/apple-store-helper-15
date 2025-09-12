@@ -1,0 +1,420 @@
+{
+  "update_time": "2025-09-13 00:42:07",
+  "area_code": "kr",
+  "products": {
+    "iPhone 16": [
+      {
+        "Model": "iPhone 16 Plus",
+        "Capacity": "256GB",
+        "Color": "群青色",
+        "Code": "MXY23KH/A",
+        "Type": "iphone16"
+      },
+      {
+        "Model": "iPhone 16 Plus",
+        "Capacity": "256GB",
+        "Color": "粉色",
+        "Code": "MXY13KH/A",
+        "Type": "iphone16"
+      },
+      {
+        "Model": "iPhone 16 Plus",
+        "Capacity": "256GB",
+        "Color": "深青色",
+        "Code": "MXY53KH/A",
+        "Type": "iphone16"
+      },
+      {
+        "Model": "iPhone 16 Plus",
+        "Capacity": "128GB",
+        "Color": "白色",
+        "Code": "MXVV3KH/A",
+        "Type": "iphone16"
+      },
+      {
+        "Model": "iPhone 16 Plus",
+        "Capacity": "128GB",
+        "Color": "黑色",
+        "Code": "MXVU3KH/A",
+        "Type": "iphone16"
+      },
+      {
+        "Model": "iPhone 16 Plus",
+        "Capacity": "128GB",
+        "Color": "深青色",
+        "Code": "MXVY3KH/A",
+        "Type": "iphone16"
+      },
+      {
+        "Model": "iPhone 16 Plus",
+        "Capacity": "128GB",
+        "Color": "群青色",
+        "Code": "MXVX3KH/A",
+        "Type": "iphone16"
+      },
+      {
+        "Model": "iPhone 16 Plus",
+        "Capacity": "128GB",
+        "Color": "粉色",
+        "Code": "MXVW3KH/A",
+        "Type": "iphone16"
+      },
+      {
+        "Model": "iPhone 16 Plus",
+        "Capacity": "256GB",
+        "Color": "黑色",
+        "Code": "MXWN3KH/A",
+        "Type": "iphone16"
+      },
+      {
+        "Model": "iPhone 16 Plus",
+        "Capacity": "256GB",
+        "Color": "白色",
+        "Code": "MXWV3KH/A",
+        "Type": "iphone16"
+      },
+      {
+        "Model": "iPhone 16",
+        "Capacity": "128GB",
+        "Color": "白色",
+        "Code": "MYE93KH/A",
+        "Type": "iphone16"
+      },
+      {
+        "Model": "iPhone 16",
+        "Capacity": "128GB",
+        "Color": "黑色",
+        "Code": "MYE73KH/A",
+        "Type": "iphone16"
+      },
+      {
+        "Model": "iPhone 16",
+        "Capacity": "128GB",
+        "Color": "粉色",
+        "Code": "MYEA3KH/A",
+        "Type": "iphone16"
+      },
+      {
+        "Model": "iPhone 16",
+        "Capacity": "128GB",
+        "Color": "深青色",
+        "Code": "MYED3KH/A",
+        "Type": "iphone16"
+      },
+      {
+        "Model": "iPhone 16",
+        "Capacity": "128GB",
+        "Color": "群青色",
+        "Code": "MYEC3KH/A",
+        "Type": "iphone16"
+      }
+    ],
+    "iPhone 17": [
+      {
+        "Model": "iPhone 17",
+        "Capacity": "256GB",
+        "Color": "薄雾蓝色",
+        "Code": "MG6L4KH/A",
+        "Type": "iphone17"
+      },
+      {
+        "Model": "iPhone 17",
+        "Capacity": "256GB",
+        "Color": "薰衣草色",
+        "Code": "MG6M4KH/A",
+        "Type": "iphone17"
+      },
+      {
+        "Model": "iPhone 17",
+        "Capacity": "256GB",
+        "Color": "黑色",
+        "Code": "MG6J4KH/A",
+        "Type": "iphone17"
+      },
+      {
+        "Model": "iPhone 17",
+        "Capacity": "256GB",
+        "Color": "白色",
+        "Code": "MG6K4KH/A",
+        "Type": "iphone17"
+      },
+      {
+        "Model": "iPhone 17",
+        "Capacity": "512GB",
+        "Color": "白色",
+        "Code": "MG6Q4KH/A",
+        "Type": "iphone17"
+      },
+      {
+        "Model": "iPhone 17",
+        "Capacity": "512GB",
+        "Color": "黑色",
+        "Code": "MG6P4KH/A",
+        "Type": "iphone17"
+      },
+      {
+        "Model": "iPhone 17",
+        "Capacity": "256GB",
+        "Color": "鼠尾草色",
+        "Code": "MG6N4KH/A",
+        "Type": "iphone17"
+      },
+      {
+        "Model": "iPhone 17",
+        "Capacity": "512GB",
+        "Color": "薰衣草色",
+        "Code": "MG6U4KH/A",
+        "Type": "iphone17"
+      },
+      {
+        "Model": "iPhone 17",
+        "Capacity": "512GB",
+        "Color": "鼠尾草色",
+        "Code": "MG6V4KH/A",
+        "Type": "iphone17"
+      },
+      {
+        "Model": "iPhone 17",
+        "Capacity": "512GB",
+        "Color": "薄雾蓝色",
+        "Code": "MG6T4KH/A",
+        "Type": "iphone17"
+      }
+    ],
+    "iPhone 17 Pro": [
+      {
+        "Model": "iPhone 17 Pro Max",
+        "Capacity": "512GB",
+        "Color": "深蓝色",
+        "Code": "MFYU4KH/A",
+        "Type": "iphone17pro"
+      },
+      {
+        "Model": "iPhone 17 Pro Max",
+        "Capacity": "512GB",
+        "Color": "宇宙橙色",
+        "Code": "MFYT4KH/A",
+        "Type": "iphone17pro"
+      },
+      {
+        "Model": "iPhone 17 Pro Max",
+        "Capacity": "1TB",
+        "Color": "银色",
+        "Code": "MFYV4KH/A",
+        "Type": "iphone17pro"
+      },
+      {
+        "Model": "iPhone 17 Pro Max",
+        "Capacity": "2TB",
+        "Color": "银色",
+        "Code": "MFYY4KH/A",
+        "Type": "iphone17pro"
+      },
+      {
+        "Model": "iPhone 17 Pro Max",
+        "Capacity": "1TB",
+        "Color": "宇宙橙色",
+        "Code": "MFYW4KH/A",
+        "Type": "iphone17pro"
+      },
+      {
+        "Model": "iPhone 17 Pro Max",
+        "Capacity": "1TB",
+        "Color": "深蓝色",
+        "Code": "MFYX4KH/A",
+        "Type": "iphone17pro"
+      },
+      {
+        "Model": "iPhone 17 Pro Max",
+        "Capacity": "2TB",
+        "Color": "宇宙橙色",
+        "Code": "MG004KH/A",
+        "Type": "iphone17pro"
+      },
+      {
+        "Model": "iPhone 17 Pro Max",
+        "Capacity": "2TB",
+        "Color": "深蓝色",
+        "Code": "MG014KH/A",
+        "Type": "iphone17pro"
+      },
+      {
+        "Model": "iPhone 17 Pro Max",
+        "Capacity": "256GB",
+        "Color": "银色",
+        "Code": "MFYM4KH/A",
+        "Type": "iphone17pro"
+      },
+      {
+        "Model": "iPhone 17 Pro Max",
+        "Capacity": "256GB",
+        "Color": "深蓝色",
+        "Code": "MFYP4KH/A",
+        "Type": "iphone17pro"
+      },
+      {
+        "Model": "iPhone 17 Pro Max",
+        "Capacity": "512GB",
+        "Color": "银色",
+        "Code": "MFYQ4KH/A",
+        "Type": "iphone17pro"
+      },
+      {
+        "Model": "iPhone 17 Pro Max",
+        "Capacity": "256GB",
+        "Color": "宇宙橙色",
+        "Code": "MFYN4KH/A",
+        "Type": "iphone17pro"
+      },
+      {
+        "Model": "iPhone 17 Pro",
+        "Capacity": "1TB",
+        "Color": "银色",
+        "Code": "MG8P4KH/A",
+        "Type": "iphone17pro"
+      },
+      {
+        "Model": "iPhone 17 Pro",
+        "Capacity": "1TB",
+        "Color": "宇宙橙色",
+        "Code": "MG8Q4KH/A",
+        "Type": "iphone17pro"
+      },
+      {
+        "Model": "iPhone 17 Pro",
+        "Capacity": "512GB",
+        "Color": "深蓝色",
+        "Code": "MG8N4KH/A",
+        "Type": "iphone17pro"
+      },
+      {
+        "Model": "iPhone 17 Pro",
+        "Capacity": "1TB",
+        "Color": "深蓝色",
+        "Code": "MG8R4KH/A",
+        "Type": "iphone17pro"
+      },
+      {
+        "Model": "iPhone 17 Pro",
+        "Capacity": "256GB",
+        "Color": "宇宙橙色",
+        "Code": "MG8H4KH/A",
+        "Type": "iphone17pro"
+      },
+      {
+        "Model": "iPhone 17 Pro",
+        "Capacity": "256GB",
+        "Color": "银色",
+        "Code": "MG8G4KH/A",
+        "Type": "iphone17pro"
+      },
+      {
+        "Model": "iPhone 17 Pro",
+        "Capacity": "512GB",
+        "Color": "宇宙橙色",
+        "Code": "MG8M4KH/A",
+        "Type": "iphone17pro"
+      },
+      {
+        "Model": "iPhone 17 Pro",
+        "Capacity": "256GB",
+        "Color": "深蓝色",
+        "Code": "MG8J4KH/A",
+        "Type": "iphone17pro"
+      },
+      {
+        "Model": "iPhone 17 Pro",
+        "Capacity": "512GB",
+        "Color": "银色",
+        "Code": "MG8K4KH/A",
+        "Type": "iphone17pro"
+      }
+    ],
+    "iPhone Air": [
+      {
+        "Model": "iPhone Air",
+        "Capacity": "512GB",
+        "Color": "浅金色",
+        "Code": "MG2U4KH/A",
+        "Type": "iphoneair"
+      },
+      {
+        "Model": "iPhone Air",
+        "Capacity": "512GB",
+        "Color": "天蓝色",
+        "Code": "MG2V4KH/A",
+        "Type": "iphoneair"
+      },
+      {
+        "Model": "iPhone Air",
+        "Capacity": "512GB",
+        "Color": "云白色",
+        "Code": "MG2T4KH/A",
+        "Type": "iphoneair"
+      },
+      {
+        "Model": "iPhone Air",
+        "Capacity": "1TB",
+        "Color": "浅金色",
+        "Code": "MG2Y4KH/A",
+        "Type": "iphoneair"
+      },
+      {
+        "Model": "iPhone Air",
+        "Capacity": "1TB",
+        "Color": "深空黑色",
+        "Code": "MG2W4KH/A",
+        "Type": "iphoneair"
+      },
+      {
+        "Model": "iPhone Air",
+        "Capacity": "1TB",
+        "Color": "云白色",
+        "Code": "MG2X4KH/A",
+        "Type": "iphoneair"
+      },
+      {
+        "Model": "iPhone Air",
+        "Capacity": "256GB",
+        "Color": "云白色",
+        "Code": "MG2M4KH/A",
+        "Type": "iphoneair"
+      },
+      {
+        "Model": "iPhone Air",
+        "Capacity": "256GB",
+        "Color": "深空黑色",
+        "Code": "MG2L4KH/A",
+        "Type": "iphoneair"
+      },
+      {
+        "Model": "iPhone Air",
+        "Capacity": "256GB",
+        "Color": "浅金色",
+        "Code": "MG2N4KH/A",
+        "Type": "iphoneair"
+      },
+      {
+        "Model": "iPhone Air",
+        "Capacity": "512GB",
+        "Color": "深空黑色",
+        "Code": "MG2Q4KH/A",
+        "Type": "iphoneair"
+      },
+      {
+        "Model": "iPhone Air",
+        "Capacity": "1TB",
+        "Color": "天蓝色",
+        "Code": "MG304KH/A",
+        "Type": "iphoneair"
+      },
+      {
+        "Model": "iPhone Air",
+        "Capacity": "256GB",
+        "Color": "天蓝色",
+        "Code": "MG2P4KH/A",
+        "Type": "iphoneair"
+      }
+    ]
+  }
+}

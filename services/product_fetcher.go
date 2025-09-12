@@ -41,6 +41,8 @@ func FetchProductData(areaCode string) (*ProductData, error) {
 		baseURL = "https://www.apple.com/hk"
 	case "jp":
 		baseURL = "https://www.apple.com/jp"
+	case "kr":
+		baseURL = "https://www.apple.com/kr"
 	case "sg":
 		baseURL = "https://www.apple.com/sg"
 	case "us":

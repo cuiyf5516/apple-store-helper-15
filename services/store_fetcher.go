@@ -44,6 +44,10 @@ func FetchStoresForArea(areaCode string, location string) ([]model.Store, error)
 		sampleProduct = "MYDR3J/A" // 日本的iPhone 16
 		apiURL = fmt.Sprintf("https://www.apple.com/jp/shop/fulfillment-messages?fae=true&pl=true&mts.0=regular&parts.0=%s&location=%s&cppart=UNLOCKED_JP",
 			sampleProduct, url.QueryEscape(location))
+	case "kr":
+		sampleProduct = "MG6J4KH/A" // 韩国的iPhone 17
+		apiURL = fmt.Sprintf("https://www.apple.com/kr/shop/fulfillment-messages?fae=true&pl=true&mts.0=regular&parts.0=%s&location=%s",
+			sampleProduct, url.QueryEscape(location))
 	case "sg":
 		sampleProduct = "MXY23ZP/A" // 新加坡的iPhone 16 Plus 256GB Ultramarine
 		apiURL = fmt.Sprintf("https://www.apple.com/sg/shop/fulfillment-messages?fae=true&pl=true&mts.0=regular&parts.0=%s&location=Singapore",
@@ -247,6 +251,7 @@ func UpdateStoresForAllAreas() error {
 		"cn": {"北京", "上海", "深圳", "广州", "成都", "杭州", "南京", "武汉", "重庆", "天津", "苏州", "青岛", "长沙", "大连", "厦门", "无锡", "福州", "济南", "宁波", "温州", "郑州", "沈阳", "合肥", "南宁", "昆明"},
 		"hk": {"Central"},
 		"jp": {"100-0001", "150-0001", "460-0008", "530-0001", "650-0001", "700-0001", "800-0001", "900-0001"},
+		"kr": {"01000", "44000", "21000", "41000", "61000", "34000", "44000", "30000", "63000"},
 		"sg": {"Singapore"},
 		"us": {"10001", "90210", "60601", "33101", "75201", "98101", "85001", "30309", "02108", "02116"},
 		"uk": {"London", "Manchester", "Birmingham", "Glasgow", "Edinburgh", "Liverpool", "Leeds", "Bristol", "Newcastle", "Cardiff"},
@@ -306,6 +311,8 @@ func getAcceptLanguage(areaCode string) string {
 		return "zh-HK,zh;q=0.9,en;q=0.8"
 	case "jp":
 		return "ja-JP,ja;q=0.9,en;q=0.8"
+	case "kr":
+		return "ko-KR,ko;q=0.9,en;q=0.8"
 	case "sg":
 		return "en-SG,en;q=0.9,zh;q=0.8"
 	case "us":
@@ -328,6 +335,8 @@ func getReferer(areaCode string) string {
 		return "https://www.apple.com/hk/shop/buy-iphone/iphone-16"
 	case "jp":
 		return "https://www.apple.com/jp/shop/buy-iphone/iphone-16"
+	case "kr":
+		return "https://www.apple.com/kr/shop/buy-iphone/iphone-16"
 	case "sg":
 		return "https://www.apple.com/sg/shop/buy-iphone/iphone-16"
 	case "us":

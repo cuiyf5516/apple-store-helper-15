@@ -436,6 +436,19 @@ func main() {
 					storeWidget,
 				),
 			}
+		} else if value == "韩国" {
+			// 韩国：直接显示所有门店
+			zipCodeEntry.Disable()
+			zipCodeEntry.Text = ""
+			storeWidget.Options = services.Store.ByAreaTitleForOptions(value)
+			storeWidget.Enable()
+			storeWidget.PlaceHolder = "选择门店"
+			locationContainer.Objects = []fyne.CanvasObject{
+				container.NewVBox(
+					widget.NewLabelWithStyle("门店", fyne.TextAlignLeading, fyne.TextStyle{Bold: true}),
+					storeWidget,
+				),
+			}
 		} else if value == "新加坡" {
 			// 新加坡：直接显示所有门店
 			zipCodeEntry.Disable()
@@ -544,7 +557,7 @@ func main() {
 			if currentProvince == "" || storeWidget.Selected == "" {
 				errorMsg = "请选择州/省份和门店"
 			}
-		} else if areaWidget.Selected == "香港" || areaWidget.Selected == "日本" || areaWidget.Selected == "新加坡" || areaWidget.Selected == "英国" || areaWidget.Selected == "澳大利亚" {
+		} else if areaWidget.Selected == "香港" || areaWidget.Selected == "日本" || areaWidget.Selected == "韩国" || areaWidget.Selected == "新加坡" || areaWidget.Selected == "英国" || areaWidget.Selected == "澳大利亚" {
 			if storeWidget.Selected == "" {
 				errorMsg = "请选择门店"
 			}
@@ -614,7 +627,7 @@ func main() {
 				// 中国大陆：从动态数据中获取门店信息
 				selectedStore := services.Store.GetStore(areaWidget.Selected, storeWidget.Selected)
 				services.Listen.AddWithStoreInfo(selectedStore, productTitle, productCode, productType)
-			} else if areaWidget.Selected == "香港" || areaWidget.Selected == "日本" || areaWidget.Selected == "新加坡" ||
+			} else if areaWidget.Selected == "香港" || areaWidget.Selected == "日本" || areaWidget.Selected == "韩国" || areaWidget.Selected == "新加坡" ||
 				areaWidget.Selected == "美国" || areaWidget.Selected == "英国" || areaWidget.Selected == "澳大利亚" {
 				// 确保门店数据已加载
 				selectedArea := services.Area.GetArea(areaWidget.Selected)
@@ -670,7 +683,7 @@ func main() {
 			var productErr, storeErr error
 
 			// 更新所有地区的产品数据
-			areaCodes := []string{"cn", "hk", "jp", "sg", "us", "uk", "au"}
+			areaCodes := []string{"cn", "hk", "jp", "kr", "sg", "us", "uk", "au"}
 			for _, areaCode := range areaCodes {
 				log.Printf("Updating product data for %s...", areaCode)
 				if err := services.UpdateProductDatabase(areaCode); err != nil {

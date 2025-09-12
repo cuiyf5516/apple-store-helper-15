@@ -15,6 +15,9 @@ var ProductDataHK []byte
 //go:embed data/product/product_data_jp.json
 var ProductDataJP []byte
 
+//go:embed data/product/product_data_kr.json
+var ProductDataKR []byte
+
 //go:embed data/product/product_data_sg.json
 var ProductDataSG []byte
 
@@ -38,6 +41,9 @@ var StoreDataHK []byte
 //go:embed data/store/store_jp.json
 var StoreDataJP []byte
 
+//go:embed data/store/store_kr.json
+var StoreDataKR []byte
+
 //go:embed data/store/store_us.json
 var StoreDataUS []byte
 
@@ -55,6 +61,7 @@ var ProductDataMap = map[string][]byte{
 	"cn": ProductDataCN,
 	"hk": ProductDataHK,
 	"jp": ProductDataJP,
+	"kr": ProductDataKR,
 	"sg": ProductDataSG,
 	"us": ProductDataUS,
 	"uk": ProductDataUK,
@@ -66,6 +73,7 @@ var StoreDataMap = map[string][]byte{
 	"cn": StoreDataCN,
 	"hk": StoreDataHK,
 	"jp": StoreDataJP,
+	"kr": StoreDataKR,
 	"us": StoreDataUS,
 	"uk": StoreDataUK,
 	"au": StoreDataAU,
