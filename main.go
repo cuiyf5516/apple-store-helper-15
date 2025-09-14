@@ -527,8 +527,6 @@ func main() {
 	titleLabel := widget.NewLabelWithStyle("抢你妹 - iPhone 库存监控 (支持 iPhone 17/17 Pro/17 Pro Max/Air)",
 		fyne.TextAlignLeading, fyne.TextStyle{Bold: true})
 	versionLabel := widget.NewLabel("v" + common.VERSION)
-	authorLink := widget.NewHyperlink("@Sunbelife", parseURL("https://weibo.com/x1nyang"))
-	ibetaLink := widget.NewHyperlink("@iBeta", parseURL("https://ibeta.me"))
 
 	// Bark 通知 URL 输入框
 	barkEntry := widget.NewEntry()
@@ -828,10 +826,6 @@ func main() {
 		nil, widget.NewSeparator(), nil,
 		container.NewHBox(
 			versionLabel,
-			widget.NewLabel("·"),
-			authorLink,
-			widget.NewLabel("·"),
-			ibetaLink,
 		),
 		titleLabel,
 	)
